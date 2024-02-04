@@ -1,0 +1,295 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "健十商城",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "pages": [
+    {
+      "path": "pages/tab-bar/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 110
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/tab-bar/common/webview/index",
+      "style": {
+        "navigationBarTitleText": "浏览网页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/personal_invoice/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "个人发票"
+      }
+    },
+    {
+      "path": "pages/tab-bar/service/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "售后"
+      }
+    },
+    {
+      "path": "pages/tab-bar/articles/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "文章列表"
+      }
+    },
+    {
+      "path": "pages/tab-bar/article/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "文章详情"
+      }
+    },
+    {
+      "path": "pages/tab-bar/doctors/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "医生信息"
+      }
+    },
+    {
+      "path": "pages/tab-bar/company_contract/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "厂商入驻"
+      }
+    },
+    {
+      "path": "pages/tab-bar/doctor_apply/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "医生入驻"
+      }
+    },
+    {
+      "path": "pages/tab-bar/company_invoice/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "公司发票"
+      }
+    },
+    {
+      "path": "pages/login/code",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "验证码"
+      }
+    },
+    {
+      "path": "pages/tab-bar/category/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/order/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/order/create_order",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/member-center/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+
+    {
+      "path": "pages/tab-bar/cart/index",
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 110
+      }
+    },
+    {
+      "path": "pages/tab-bar/setting/index",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 110
+      }
+    },
+    {
+      "path": "pages/tab-bar/category",
+      "style": {
+        "navigationBarTitleText": "分类",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/message",
+      "style": {
+        "navigationBarTitleText": "消息",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/chat/index",
+      "style": {
+        "navigationBarTitleText": "聊天",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/address/index",
+      "style": {
+        "navigationBarTitleText": "收货地址",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/history/index",
+      "style": {
+        "navigationBarTitleText": "浏览历史",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/doctor_ui/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/address/add",
+      "style": {
+        "navigationBarTitleText": "新增地址",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/coupon/index",
+      "style": {
+        "navigationBarTitleText": "优惠券",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+      "style": {
+        "navigationBarTitleText": "头像裁剪",
+        "navigationBarBackgroundColor": "#000000"
+      }
+    },
+    {
+      "path": "pages/tab-bar/goods",
+      "style": {
+        "navigationBarTitleText": "商城",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/user",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/product-detail/index",
+      "style": {
+        "navigationBarTitleText": "商品详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/mine/avatar/index",
+      "style": {
+        "navigationBarTitleText": "修改头像"
+      }
+    },
+    {
+      "path": "pages/tab-bar/mine/info/index",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    },
+    {
+      "path": "pages/tab-bar/mine/info/edit",
+      "style": {
+        "navigationBarTitleText": "编辑资料",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/mine/pwd/index",
+      "style": {
+        "navigationBarTitleText": "修改密码",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tab-bar/comment/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tab-bar/index",
+        "iconPath": "static/images/首页.png",
+        "selectedIconPath": "static/images/首页-选中.png"
+      },
+      {
+        "pagePath": "pages/tab-bar/category",
+        "iconPath": "static/images/分类.png",
+        "selectedIconPath": "static/images/分类-选中.png"
+      },
+      {
+        "pagePath": "pages/tab-bar/message",
+        "iconPath": "static/images/消息.png",
+        "selectedIconPath": "static/images/消息-选中.png"
+      },
+      {
+        "pagePath": "pages/tab-bar/goods",
+        "iconPath": "static/images/商城.png",
+        "selectedIconPath": "static/images/商城-选中.png"
+      },
+      {
+        "pagePath": "pages/tab-bar/user",
+        "iconPath": "static/images/我的.png",
+        "selectedIconPath": "static/images/我的-选中.png"
+      }
+
+    ]
+  }
+}

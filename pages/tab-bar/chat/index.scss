@@ -1,0 +1,158 @@
+.content-image{
+  width: 300rpx;
+  height: auto;
+  max-width: 300rpx;
+  max-height: 400rpx;
+}
+
+.content-video{
+  width: 300rpx;
+  height: 200rpx;
+}
+
+
+.flex_col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+
+  .flex_grow {
+    width: 0;
+    flex-grow: 1;
+  }
+}
+
+.bottom {
+  padding-bottom: 30rpx;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  z-index: 2;
+  border-top: #e5e5e5 solid 1px;
+  box-sizing: content-box;
+  background-color: #F3F3F3;
+
+  .input {
+    width: 80%;
+    margin-left: 2%;
+    height: 40px;
+    //flex: 1;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #ffff;
+    border-radius: 10upx;
+    color: #000;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+
+  .tool-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+  }
+
+  .tool {
+    margin-bottom: 5%;
+    padding: 15rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    background-color: #FFFFFF;
+    width: 20%;
+  }
+
+  .content {
+    background-color: #fff;
+    height: 64rpx;
+    padding: 0 20rpx;
+    border-radius: 32rpx;
+    font-size: 28rpx;
+  }
+}
+
+
+/* 消息项，基础类 */
+.message {
+  padding: 20rpx 20rpx 0 10rpx;
+  align-items: flex-start;
+  align-content: flex-start;
+  color: #333;
+
+  .avatar {
+    width: 92rpx;
+    height: 92rpx;
+    border-radius: 50%;
+    border: #fff solid 1px;
+  }
+
+  .content {
+    padding: 10rpx 20rpx;
+    border-radius: 4px;
+    max-width: 500rpx;
+    word-break: break-all;
+    line-height: 52rpx;
+    position: relative;
+  }
+
+  /* 收到的消息 */
+  &.receive {
+    .content {
+      margin-left: 10rpx;
+      border-radius: 25rpx;
+      background-color: #fff;
+    }
+  }
+
+  /* 发出的消息 */
+  &.send {
+    /* 主轴为水平方向，起点在右端。使不修改DOM结构，也能改变元素排列顺序 */
+    flex-direction: row-reverse;
+
+    .content {
+      margin-right: 32rpx;
+      border-radius: 25rpx;
+      background-color: rgb(253, 249, 237);
+
+    }
+  }
+}
+
+.tool-bar-wrap {
+  margin-top: 1%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap
+}
+
+.tool-item {
+  padding: 10rpx 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+  height: 130rpx;
+  margin: 0 2%;
+  background-color: #FFFFFF;
+  border-radius: 15rpx
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s, height 0.3s;
+}
+
+.visible {
+  display: block;
+  opacity: 1;
+  height: 120rpx;
+  transition: opacity 0.3s, height 0.3s;
+}
+
